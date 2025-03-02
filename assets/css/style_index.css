@@ -1,0 +1,27 @@
+.main-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.button-connexion {
+  padding: 1rem;
+  background: rgb(94, 253, 45);
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 2rem;
+  box-shadow: -1px 0px 39px 12px rgba(0, 0, 0, 0.69) inset;
+  -webkit-box-shadow: -1px 0px 39px 12px rgba(0, 0, 0, 0.69) inset;
+  -moz-box-shadow: -1px 0px 39px 12px rgba(0, 0, 0, 0.69) inset;
+}

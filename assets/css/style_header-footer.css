@@ -1,0 +1,51 @@
+/* ALL */
+
+body {
+  background-color: #c0e9c0;
+}
+main {
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* HEADER */
+.header {
+  color: white;
+  width: 100%;
+  height: 8rem;
+  background: rgb(36, 10, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 10, 0, 1) 0%,
+    rgba(9, 121, 26, 1) 30%,
+    rgba(0, 255, 94, 1) 70%
+  );
+}
+.header img {
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 6rem;
+  color: white;
+  background: rgb(36, 10, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 10, 0, 1) 0%,
+    rgba(9, 121, 26, 1) 30%,
+    rgba(0, 255, 94, 1) 70%
+  );
+  text-align: center;
+}
+.copyright {
+  padding: 2.5rem;
+}
+.copyright a {
+  color: rgb(8, 7, 7);
+  font-weight: 700;
+}
+/*---------- MEDIA QUERIES ----------*/
